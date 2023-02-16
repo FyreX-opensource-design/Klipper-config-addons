@@ -22,7 +22,7 @@ def calabrate():
         serial1.write('e0 80 00 60')
         time.sleep(60)
         output = serial1.read(8)
-    elif stepper1 == 'Y'
+    elif stepper1 == 'Y':
         serial2.write('e1 80 00 60')
         time.sleep(60)
         output = serial2.read(8)
