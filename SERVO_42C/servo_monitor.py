@@ -1,7 +1,7 @@
 #imports 
 import pyserial
 import subprocess
-from servo_control import serial1nj
+from servo_control import serial1
 from servo_control import serial2
 
 def shutdown():
