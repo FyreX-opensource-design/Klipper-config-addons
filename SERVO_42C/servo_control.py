@@ -3,8 +3,8 @@ import pyserial
 import time
 global output
 
-serial1 = serial.Serial('/dev/ttyUSB0') #x stepper
-serial2 = serial.Serial('/dev/ttyUSB1') #y stepper
+serial1 = serial.Serial('/dev/ttyUSB0', 9600) #x stepper
+serial2 = serial.Serial('/dev/ttyUSB1', 9600) #y stepper
 
 #reads success or fail output
 def _return():
